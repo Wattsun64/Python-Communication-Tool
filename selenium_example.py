@@ -1,6 +1,5 @@
 from selenium import webdriver
 
-
 def communication_template(url):
     chrome = webdriver.Chrome('./Browser/Drivers/chromedriver')
     chrome.get(url)
