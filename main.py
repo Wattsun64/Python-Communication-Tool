@@ -18,10 +18,10 @@ def communication_template(url):
     clipboard.copy(template)
     create_html_file(template)
 
-def create_html_file(txt):
-    file = open("communication.html","w")
-    file.write(txt)
-    file.close()
+# def create_html_file(txt):
+#     file = open("communication.html","w")
+#     file.write(txt)
+#     file.close()
 
 def main():
     url = input("Please provide webpage url ==> ")
